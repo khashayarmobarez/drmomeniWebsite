@@ -35,6 +35,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={dir}
+      data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} ${vazirmatn.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
