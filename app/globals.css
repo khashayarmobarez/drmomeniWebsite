@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
+/* ── Brand palette: warm "bone & botanical" ──────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --canvas: #f4eee4; /* warm bone */
+  --canvas-raised: #ebe2d4; /* deeper sand for alternating bands */
+  --ink: #211e19; /* warm near-black */
+  --ink-soft: #595048; /* muted body text */
+  --pine: #1c3a31; /* deep botanical green — dark sections */
+  --pine-soft: #2c5046;
+  --pine-line: #3c5d53; /* hairlines on pine */
+  --blush: #be7a5e; /* clay-rose accent */
+  --blush-soft: #e5c4b2;
+  --bronze: #a9824f; /* hairline / detail */
+  --line: #ddd2c0; /* hairline borders on canvas */
+  --cream: #ede7db; /* text on pine */
+  --cream-soft: #c3bcab; /* muted text on pine */
+
+  /* locale-driven active font (default: fa) */
+  --font-active: var(--font-vazirmatn);
+}
+
+html[lang="fa"] {
+  --font-active: var(--font-vazirmatn);
+}
+html[lang="en"] {
+  --font-active: var(--font-geist-sans);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-canvas: var(--canvas);
+  --color-canvas-raised: var(--canvas-raised);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-pine: var(--pine);
+  --color-pine-soft: var(--pine-soft);
+  --color-pine-line: var(--pine-line);
+  --color-blush: var(--blush);
+  --color-blush-soft: var(--blush-soft);
+  --color-bronze: var(--bronze);
+  --color-line: var(--line);
+  --color-cream: var(--cream);
+  --color-cream-soft: var(--cream-soft);
+
+  --font-sans: var(--font-active);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-padding-top: 5.5rem; /* clears the sticky nav for anchor jumps */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-active);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Letterspaced micro-label; latin uses mono, fa keeps the active font */
+.eyebrow {
+  font-family: var(--font-geist-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.72rem;
+}
+html[lang="fa"] .eyebrow {
+  font-family: var(--font-vazirmatn);
+  text-transform: none;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+}
+
+/* Safety net for any CSS transitions when motion is reduced (JS gates the rest) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

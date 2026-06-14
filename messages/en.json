@@ -1,6 +1,193 @@
 {
   "home": {
-    "title": "Dr. Hilda Momeni",
-    "description": "Welcome to the official website of Dr. Hilda Momeni"
+    "meta": {
+      "title": "Dr. Hilda Momeni | Hair, Skin & Beauty",
+      "description": "Aesthetic dermatology clinic of Dr. Hilda Momeni — calm, evidence-based, personalised care for hair, skin and beauty."
+    },
+    "nav": {
+      "skip": "Skip to main content",
+      "book": "Book consultation",
+      "menu": "Menu",
+      "links": {
+        "about": "About",
+        "services": "Services",
+        "treatments": "Treatments",
+        "process": "Process",
+        "faq": "FAQ"
+      }
+    },
+    "lang": {
+      "label": "Select language",
+      "fa": "فارسی",
+      "en": "English"
+    },
+    "hero": {
+      "eyebrow": "Hair, skin & aesthetic dermatology",
+      "name": "Dr. Hilda Momeni",
+      "positioning": "Hair · Skin · Beauty",
+      "valueProp": "Calm, evidence-based and personalised care for the health and beauty of your skin and hair.",
+      "ctaPrimary": "Book consultation",
+      "ctaSecondary": "Explore services",
+      "portraitLabel": "Portrait of Dr. Hilda Momeni",
+      "badge": "Skin & aesthetics specialist",
+      "scrollHint": "Discover more"
+    },
+    "trust": {
+      "items": [
+        { "value": "15+", "label": "Years of clinical practice" },
+        { "value": "20+", "label": "Certifications & courses" },
+        { "value": "5,000+", "label": "Patients cared for" },
+        { "value": "3", "label": "Areas of focus" }
+      ]
+    },
+    "about": {
+      "eyebrow": "About Dr. Momeni",
+      "heading": "The science of skin, with a human touch",
+      "body": "With years of experience across hair, skin and aesthetic care, Dr. Hilda Momeni follows an approach that is evidence-based yet deeply attentive. Every treatment plan is built around the real needs and circumstances of each person.",
+      "philosophy": "“Lasting beauty begins with health — not with haste, but with careful, considered care.”",
+      "portraitLabel": "Dr. Momeni in the clinic",
+      "points": [
+        "Grounded in scientific evidence",
+        "Fully personalised treatment plans",
+        "Guidance through every step"
+      ]
+    },
+    "services": {
+      "eyebrow": "Areas of focus",
+      "heading": "Three pillars of care",
+      "intro": "From scalp health to skin clarity and balanced aesthetics — care that is integrated and considered.",
+      "items": [
+        {
+          "title": "Hair",
+          "desc": "Assessment of hair and scalp health with specialised care to strengthen and maintain."
+        },
+        {
+          "title": "Skin",
+          "desc": "Evaluation, cleansing and evidence-based skin care tailored to each person."
+        },
+        {
+          "title": "Beauty",
+          "desc": "Aesthetic treatments with a natural, balanced approach that suits your features."
+        }
+      ]
+    },
+    "treatments": {
+      "eyebrow": "Flagship treatments",
+      "heading": "Selected procedures",
+      "intro": "A selection of the clinic's most requested treatments, performed with care and current standards.",
+      "items": [
+        {
+          "name": "Skin mesotherapy",
+          "tag": "Skin",
+          "desc": "Delivering nourishing compounds into the skin for freshness and vitality."
+        },
+        {
+          "name": "Hair loss care",
+          "tag": "Hair",
+          "desc": "Investigating causes of shedding and shaping a care plan suited to you."
+        },
+        {
+          "name": "Skin rejuvenation",
+          "tag": "Beauty",
+          "desc": "Approaches that support renewal and an even, natural-looking complexion."
+        }
+      ]
+    },
+    "beforeAfter": {
+      "eyebrow": "Sample results",
+      "heading": "Before & after",
+      "intro": "Examples from real care journeys will appear here soon.",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "note": "* Images are illustrative only; individual results vary."
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "heading": "From consultation to result",
+      "steps": [
+        {
+          "title": "Initial consultation",
+          "desc": "A conversation about your goals, history and expectations."
+        },
+        {
+          "title": "Assessment & diagnosis",
+          "desc": "A careful review of your skin or hair to understand the real need."
+        },
+        {
+          "title": "Personalised plan",
+          "desc": "A clear, step-by-step plan shaped specifically around you."
+        },
+        {
+          "title": "Follow-up & care",
+          "desc": "Ongoing guidance and review of results over time."
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Patient experiences",
+      "heading": "What they say",
+      "items": [
+        {
+          "quote": "Placeholder testimonial text — replace once consent is obtained.",
+          "name": "Patient",
+          "note": "Skin care"
+        },
+        {
+          "quote": "Placeholder testimonial text — replace once consent is obtained.",
+          "name": "Patient",
+          "note": "Hair care"
+        },
+        {
+          "quote": "Placeholder testimonial text — replace once consent is obtained.",
+          "name": "Patient",
+          "note": "Beauty care"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Frequently asked",
+      "heading": "Answers to common questions",
+      "items": [
+        {
+          "q": "What happens in the first session?",
+          "a": "The first session is dedicated to conversation, assessment and answering your questions, after which a proposed treatment plan is presented."
+        },
+        {
+          "q": "How do I book an appointment?",
+          "a": "Use the “Book consultation” button on this page or contact the clinic to arrange a time that suits you."
+        },
+        {
+          "q": "Do you offer online consultations?",
+          "a": "Depending on the service, an initial online consultation may be possible. Details are confirmed when you book."
+        },
+        {
+          "q": "How are fees determined?",
+          "a": "Fees are determined after the consultation, based on each person's situation and the chosen treatment plan."
+        },
+        {
+          "q": "When will I see results?",
+          "a": "Time to results depends on the treatment and individual factors, and is explained during your consultation."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Get started",
+      "heading": "Ready for the first step?",
+      "body": "Get in touch to book a consultation and receive a treatment plan tailored to you.",
+      "button": "Book consultation"
+    },
+    "footer": {
+      "tagline": "Hair, skin & aesthetic dermatology — calm, scientific, personal care.",
+      "navTitle": "Links",
+      "socialTitle": "Follow along",
+      "socials": [
+        { "label": "Instagram", "handle": "instagram" },
+        { "label": "Telegram", "handle": "telegram" },
+        { "label": "WhatsApp", "handle": "whatsapp" }
+      ],
+      "disclaimerTitle": "Medical disclaimer",
+      "disclaimer": "Information on this website is for educational purposes only and is not a substitute for medical advice, diagnosis or treatment. Always consult a physician for any treatment decision.",
+      "copyright": "© {year} Dr. Hilda Momeni. All rights reserved."
+    }
   }
 }
