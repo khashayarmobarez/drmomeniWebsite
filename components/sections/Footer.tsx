@@ -71,8 +71,19 @@ export function Footer() {
           </p>
         </div>
 
-        <div className="mt-10 border-t border-pine-line pt-6 text-xs text-cream-soft/80">
-          {t('footer.copyright', { year })}
+        <div className="mt-10 flex flex-col gap-2 border-t border-pine-line pt-6 text-xs text-cream-soft/80 sm:flex-row sm:items-center sm:justify-between">
+          <span>{t('footer.copyright', { year })}</span>
+          <span>
+            {t('footer.developed')}{' '}
+            <a
+              href="https://mobarrez.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="font-medium text-cream underline-offset-4 transition-colors hover:text-blush hover:underline"
+            >
+              {t('footer.creditName')}
+            </a>
+          </span>
         </div>
       </div>
     </footer>

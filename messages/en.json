@@ -187,7 +187,9 @@
       ],
       "disclaimerTitle": "Medical disclaimer",
       "disclaimer": "Information on this website is for educational purposes only and is not a substitute for medical advice, diagnosis or treatment. Always consult a physician for any treatment decision.",
-      "copyright": "© {year} Dr. Hilda Momeni. All rights reserved."
+      "copyright": "© {year} Dr. Hilda Momeni. All rights reserved.",
+      "developed": "Developed by",
+      "creditName": "Khashayar Mobarez"
     }
   }
 }
